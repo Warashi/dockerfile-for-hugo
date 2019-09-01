@@ -1,9 +1,9 @@
 FROM debian:stretch
 MAINTAINER Shinnosuke Sawada <6warashi9@gmail.com>
 
-ENV HUGO_VERSION 0.54.0
+ENV HUGO_VERSION 0.57.2
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-64bit
-ENV HUB_VERSION 2.9.0
+ENV HUB_VERSION 2.12.3
 ENV HUB_TGZ hub-linux-amd64-${HUB_VERSION}
 RUN apt-get update && apt-get install -y \
     python-pygments \
